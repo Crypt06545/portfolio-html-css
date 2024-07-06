@@ -3,7 +3,8 @@
 :root {
     --primary-text: #FD6E0A;
     --secordary-text: #474747;
-    --background-body:#FFF8F3;
+    --hero-background: #FFF8F3;
+    --highlight-text: #181818;
 
 }
 
@@ -13,9 +14,8 @@
     box-sizing: border-box;
     font-family: Open Sans;
 }
-body{
-    background: var(--background-body);
-}
+
+
 nav {
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ nav ul li a {
     color: var(--secordary-text);
 }
 
-.nav-btn {
+.btn-primary {
     width: 150px;
     height: 64px;
     font-size: 20px;
@@ -61,4 +61,83 @@ nav ul li a {
     cursor: pointer;
     border-radius: 10px;
     border: none;
+}
+
+
+.hero-header {
+    background-color: var(--hero-background);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+    border: 2px solid goldenrod;
+    height: 100vh;
+}
+
+.hero-hardy {
+    width: 500px;
+}
+
+.hero-content {
+    padding: 5px;
+    max-width: 585px;
+    margin-left: 25px;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--secordary-text);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 85px;
+    columns: var(--highlight-text);
+}
+
+.hero-desc {
+    font-size: 15px;
+    color: var(--secordary-text);
+    margin-top: 20px;
+}
+
+.about {
+    border: 2px solid green;
+    margin: 200px auto;
+    width: 1140px;
+    height: 550px;
+    background-color: var(--hero-background);
+}
+
+.about-content {
+    border: 2px solid red;
+    /* width: 827px; */
+    /* height: 47px; */
+    width: 827px;
+    height: 287px;
+    margin: 131px auto;
+    background-color: white;
+}
+
+.about-content .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--highlight-text);
+}
+
+.about-desc {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+    color: var(--secordary-text);
 }
