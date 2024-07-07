@@ -70,7 +70,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 
-    background-size: contain;
+    /* background-size: contain; */
 
 }
 
