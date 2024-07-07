@@ -118,7 +118,7 @@ nav ul li a {
 .about-me-desc {
     font-size: 14px;
     color: #757575;
-    margin:10px auto;
+    margin: 10px auto;
     /* text-align: center; */
 }
 
@@ -128,23 +128,87 @@ nav ul li a {
     text-align: center;
     background-color: var(--hero-background);
 }
-.about-content{
+
+.about-content {
     border: 2px solid black;
     background-color: white;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 22px 0 22px;
     /* padding: 5px; */
 }
-.about-items .abouts{
+
+.about-items .abouts {
     font-size: 14px;
     color: #757575;
 }
-.about-items .details{
+
+.about-items .details {
     font-size: 17px;
     font-weight: bold;
     color: #474747;
+}
+
+.section-skills {
+    margin: 130px auto;
+}
+
+.skills-desc {
+    /* border: 2px solid black; */
+    margin: auto 340px;
+}
+
+.section-skills .title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-skills .skills-desc-p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.section-skills .title,
+.section-skills .skills-desc-p {
+    text-align: center;
+}
+
+.shills-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 190px;
+    /* text-align: center; */
+    /* gap: 20px; */
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+}
+
+.skill-card {
+    /* border: 2px solid black; */
+    width: 267px;
+    Height: 377px;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.cards-content {
+    margin: 50px 33px 32px;
+    /* text-align: center; */
+
+}
+
+.skill-details {
+    margin-top: 30px;
+}
+
+.skill-name {
+    margin-top: 10px;
 }
