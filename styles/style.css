@@ -78,7 +78,7 @@ nav ul li a {
     align-items: center;
     margin: 0 35px 0 200px;
     border: 2px solid goldenrod;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .hero-hardy {
@@ -109,35 +109,42 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.about {
-    border: 2px solid green;
-    margin: 200px auto;
-    width: 1140px;
-    height: 550px;
-    background-color: var(--hero-background);
-}
-
-.about-content {
-    border: 2px solid red;
-    /* width: 827px; */
-    /* height: 47px; */
-    width: 827px;
-    height: 287px;
-    margin: 131px auto;
-    background-color: white;
-}
-
-.about-content .title {
-    text-align: center;
+.common-text-heading {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: bold;
     color: var(--highlight-text);
 }
 
-.about-desc {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
+.about-me-desc {
+    font-size: 14px;
+    color: #757575;
+    margin:10px auto;
+    /* text-align: center; */
+}
 
-    color: var(--secordary-text);
+.about {
+    margin: 130px 400px;
+    padding: 130px 150px;
+    text-align: center;
+    background-color: var(--hero-background);
+}
+.about-content{
+    border: 2px solid black;
+    background-color: white;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 22px 0 22px;
+    /* padding: 5px; */
+}
+.about-items .abouts{
+    font-size: 14px;
+    color: #757575;
+}
+.about-items .details{
+    font-size: 17px;
+    font-weight: bold;
+    color: #474747;
 }
