@@ -66,9 +66,11 @@ nav ul li a {
 
 .hero-header {
     background-color: var(--hero-background);
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+
+    background-size: contain;
 
 }
 
@@ -76,13 +78,18 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 35px 0 200px;
+    /* margin: 0 35px 0 200px; */
+    margin-left: 150px;
     border: 2px solid goldenrod;
-    /* height: 100vh; */
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .hero-hardy {
-    width: 500px;
+    border: 2px solid red;
+    width: 550px;
+    /* margin-left: 400px; */
 }
 
 .hero-content {
@@ -201,14 +208,144 @@ nav ul li a {
 
 .cards-content {
     margin: 50px 33px 32px;
+    /* border: 2px solid rebeccapurple ; */
     /* text-align: center; */
 
 }
 
 .skill-details {
     margin-top: 30px;
+    /* border: 2px solid; */
 }
 
 .skill-name {
     margin-top: 10px;
+}
+
+.resume-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .education-container {
+    border: 2px solid green;
+
+} */
+
+.education-details {
+    height: 175px;
+    width: 511px;
+    margin-top: 13px;
+}
+
+.education-left-side {
+    /* border: 2px solid green; */
+    padding: 70px;
+}
+
+.education-right-side {
+    /* border: 2px solid green; */
+    padding: 70px;
+}
+
+.education-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.education-degree {
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.education-university {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.education-degree-details {
+    font-size: 16px;
+    color: #757575;
+}
+
+.cv-btn {
+    margin: 0 825px 0;
+    /* margin-left: 130px; */
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me {
+    background-color: var(--hero-background);
+    Height: 780px;
+    margin: 130px auto 0;
+    /* border: 2px solid green; */
+
+}
+
+.contact-desc {
+    color: #474747;
+    Width: 562px;
+    Height: 56px;
+}
+
+.left-contact-box {
+    margin: 130px 0 0;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-images .icon {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.right-contact-box .input-box {
+    margin-top: 130px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.inputs {
+    width: 461px;
+    height: 64px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    /* margin: 24px;    */
+}
+
+.input-contact-box {
+    gap: 10px;
+    /* margin: 10px; */
+    /* padding: 50px; */
+
+}
+
+.input-comment {
+    border: none;
+    outline: none;
+    width: 461px;
+    height: 180px;
+    /* margin: 24px;    */
 }
